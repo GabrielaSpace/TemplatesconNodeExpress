@@ -1,0 +1,16 @@
+doctype html
+html
+   head
+      title Hello Pug
+   body
+    include ./header.pug
+    main
+        h3 Welcome to my #{name}
+        p renderizando desde el servidor
+        div(class=".imgMain")
+    include ./footer.pug
+    script(src="/public/js/script.js")
+
+    
+
+        

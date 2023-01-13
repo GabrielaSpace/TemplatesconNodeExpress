@@ -1,0 +1,16 @@
+include ./header.pug
+main
+    div
+        h3 Contacto
+    form 
+        label(for="name") Nombre: 
+        input(type="text", placeholder="ingresa tu nombre", id="name")
+        br
+        label(for="email") Email: 
+        input(type="email", placeholder="ingresa tu correo", id="email")
+        br
+        label Message:
+        textarea(type="text", placeholder="ingresa tu mensaje")
+        br
+        input(type="submit")
+include ./footer.pug
